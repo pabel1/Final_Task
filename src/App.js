@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MasterLayout from "./MasterLayout";
+// import Navbar from './Navbar/Navbar';
+import { Routes, Route } from "react-router-dom";
+import InvoiceContent from "./InvoiceContent/InvoiceContent";
 
+import Dashboard from "./Dashboard/Dashboard";
+import CardContent from "./CardsContent/CardContent";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<MasterLayout />}>
+          <Route index element={<InvoiceContent  />} />
+          <Route path="cards" element={<CardContent  />} />
+          <Route path="dashboard" element={<Dashboard />} />
+        </Route>
+      </Routes>
+      {/* <MasterLayout/> */}
     </div>
   );
 }

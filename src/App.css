@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
+.bg__img{
+  background-image: url("./Assets/img/cardimage/Mask Group.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.bg__img__2{
+  background-image: url("./Assets/img/cardimage/Mask Group_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.bg__img__3{
+  background-image: url("./Assets/img/cardimage/Mask Group_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.bg__img__4{
+  background-image: url("./Assets/img/cardimage/Mask Group_3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.income__bg{
+  background-image: url("./Assets/img//cardimage/Vector 5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
